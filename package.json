@@ -1,0 +1,20 @@
+{
+  "name": "kratostatto",
+  "version": "0.1.0",
+  "description": "Aplicacion De Tandas Para Estudio De Tatuaje Kratos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch . ./index.js"
+  },
+  "author": "Leonardo Jaloma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jquery": "^3.7.1",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.3"
+  }
+}
